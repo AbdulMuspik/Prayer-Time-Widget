@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ea; /* light green */
+    margin: 0;
+    padding: 0;
+}
+
+.prayer-widget {
+    background-color: #fff; /* white */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #66bb6a; /* green */
+    width: 300px;
+    margin: 50px auto;
+}
+
+.prayer-widget h2 {
+    color: #333; /* dark grey */
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
